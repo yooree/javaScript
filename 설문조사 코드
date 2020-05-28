@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>html 제목2</title>
+  </head>
+  <body>
+    <center>안녕하세요. 한유리입니다</center>
+
+       <br />
+
+    <input type="text" placeholder="Id를 입력하세요.">
+    <!-- input창은 텍스트 입력창 -->
+    <input type="password" placeholder="비밀번호">
+    <input type="button" value="입력">
+
+    <br>
+      연령대
+    <input type="radio" name="age"> 10대
+    <input type="radio" name="age"> 20대
+    <input type="radio" name="age"> 30대 이상
+
+    <br>
+      거주지
+
+    <input type="radio" name="home"> 서울시
+    <input type="radio" name="home"> 경기도
+    <input type="radio" name="home"> 기타
+
+    <br>
+        취미(중복허용)
+      <input type="checkbox"> 여행
+      <input type="checkbox"> 음악감상
+      <input type="checkbox"> 독서
+      <input type="checkbox"> 운동
+      <input type="checkbox"> 롤
+      <input type="checkbox"> 영화보기
+      <br>
+      자기소개
+      <br>
+      <textarea name="name" rows="10" cols="40"></textarea>
+
+      차량
+      <select class="" name="">
+        <option value="">없음</option>
+        <option value="">소형</option>
+        <option value="">중형</option>
+        <option value="">대형</option>
+
+      </select>
+
+  </body>
+</html>
