@@ -5,10 +5,6 @@ var server = http.createServer(app).listen(80);
 
 
 
-
-
-
-
 app.get('/tenCalc', function (req, res) {
   res.sendfile("javascript.html");
 });
